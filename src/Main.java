@@ -64,5 +64,10 @@ public class Main {
             System.out.println(vertex + " " + vertex.getLinks());
         }
 
+        /*
+        Задание со звездочкой. Найдите самый короткий путь из Рейкявика в Афины:
+        5 - 3 - 4
+        */
+
     }
 }
