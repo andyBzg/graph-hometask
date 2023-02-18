@@ -58,18 +58,7 @@ public class Main {
         ninth.setLinks(linksNinth);
 
 
-        List<Vertex> vertices = new ArrayList<>();
-        vertices.add(first);
-        vertices.add(second);
-        vertices.add(third);
-        vertices.add(fourth);
-        vertices.add(fifth);
-        vertices.add(sixth);
-        vertices.add(seventh);
-        vertices.add(eighth);
-        vertices.add(ninth);
-        vertices.add(tenth);
-
+        List<Vertex> vertices = List.of(fifth, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth);
 
         for (Vertex vertex : vertices) {
             System.out.println(vertex + " " + vertex.getLinks());
